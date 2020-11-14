@@ -1,0 +1,38 @@
+{
+  "name": "TypeormModelCheckingExample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --colors --ci --verbose --forceExit --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorianMarcon/TypeormModelCheckingExample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlorianMarcon/TypeormModelCheckingExample/issues"
+  },
+  "homepage": "https://github.com/FlorianMarcon/TypeormModelCheckingExample#readme",
+  "dependencies": {
+    "@types/node": "^13.1.4",
+    "@types/supertest": "^2.0.8",
+    "dotenv": "^8.2.0",
+    "mysql": "^2.18.1",
+    "typedi": "^0.8.0",
+    "typeorm": "^0.2.22"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/jest": "^24.0.25",
+    "jest": "^26.6.3",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.2.0",
+    "ts-node": "^8.5.4",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  }
+}
